@@ -39,7 +39,7 @@ alt="" />
                         <p>
                         <select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
                         <option value="" disabled selected>select store</option>
-                        <option value="Ferndale">Bean Tree Cafe - Ferndale</option>
+                        <option value="Ferndale">Woolworths Cafe - Menlyn</option>
                         <option value="Null" style="display:none" >Null</option>
                         </select>
                         </p>
