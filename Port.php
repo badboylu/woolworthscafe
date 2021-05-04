@@ -28,7 +28,7 @@ $token= bin2hex(random_bytes(16));
 <p> 
 <div style="display: flex; justify-content: center;">
 <img  
-src="https://res.cloudinary.com/ddjrcafre/image/upload/v1619180869/download_qiezgo.jpg"  
+src="https://res.cloudinary.com/ddjrcafre/image/upload/v1620118401/woolworths_logo_kpggvu.jpg"  
 alt="" /> 
 </div>
 </p>             
