@@ -18,22 +18,33 @@ $token= bin2hex(random_bytes(16));
             <div class="img-holder">
                 <div class="bg"></div>
                 <div class="info-holder">
-                    <img src="LoginBackground.jpg" alt="">
+                    <img src="outside-area-1024x768.jpg" alt="">
                 </div>
             </div>
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Welcome to <span style="color:orange;">canibu</span></h3>.             
-                        <p style="color:green;" >Cannabis Disposal Agency</p>
-                        <p style="color:grey;" ><small>Powered by the Cannabis Health and Awareness NPO [<a href="A2.php"><span>about us<span></a>]</small></p>
-                        <p style="color:grey;" ><small>How we operate [<a href="A3.php"><span>info<span></a>]</small></p>
-                        <p style="color:grey;" ><small>Operations login [<a href="Signin.php"><span>click here<span></a>]</small></p>
-                        <p><small>To enter you must acknowledge the following:</small></p>
-                        <p><small>I am over 18 years of age and I have read these <a href="A1.php">terms and conditions</a>.</small></p>
+                        <p><h3>Welcome</h3></p> 
+<p> 
+<div style="display: flex; justify-content: center;">
+<img  
+src="https://res.cloudinary.com/ddjrcafre/image/upload/v1619180869/download_qiezgo.jpg"  
+alt="" /> 
+</div>
+</p>             
+                        <p style="color:green;" >Order online now!</p>
+                        <p style="color:grey;" ><small><a href="Signin.php">Operations login</a> [<span>Operators only<span>]</small></p>
+                        <p style="color:grey;" ><small>Get your order delivered within 60 minutes!</small></p>
+                        <p><small>Which store is closest to you?</small></p>
+                        <p>
+                        <select class="PTAtown" name="Towns" id="townsPTA" form="plug" required>
+                        <option value="" disabled selected>select store</option>
+                        <option value="Ferndale">Bean Tree Cafe - Ferndale</option>
+                        <option value="Null" style="display:none" >Null</option>
+                        </select>
+                        </p>
                         <div class="page-links">
-                            <p><a href="Welcome.php"><span><small>I don't agree</small><span></a></p>
-                            <p><a href="Items.php?auth=<?php echo $token; ?>"><span style="color:green"><small>I agree</small><span></a></p>
+                            <p><a href="Shop.php?auth=<?php echo $token; ?>"><span style="color:green"><small>Enter store</small><span></a></p>
                         </div>
                     </div>
                 </div>
