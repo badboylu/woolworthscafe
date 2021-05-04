@@ -26,7 +26,7 @@ $token= bin2hex(random_bytes(16));
                     <div class="form-items">
                         <p><h3>Welcome</h3></p> 
 <p> 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; height:200px; width:300px">
 <img  
 src="https://res.cloudinary.com/ddjrcafre/image/upload/v1620118401/woolworths_logo_kpggvu.jpg"  
 alt="" /> 
